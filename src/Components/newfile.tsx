@@ -1,12 +1,11 @@
-
-
 function newfile() {
   return (
-    <div>newfiles</div>
-    <div>This is the intership project</div>
-    <div>This is the intership project</div>
-    <div>This is the intership project</div>
-  )
+    <div>
+      <div>This is the</div>
+      <div>This is the</div>
+      <div>This is the</div>
+    </div>
+  );
 }
 
-export default newfile
+export default newfile;
