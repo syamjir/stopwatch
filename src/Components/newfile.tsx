@@ -2,7 +2,7 @@
 
 function newfile() {
   return (
-    <div>newfile</div>
+    <div>newfiles</div>
   )
 }
 
