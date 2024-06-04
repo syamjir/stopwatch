@@ -15,12 +15,13 @@ export default function Stopwatch() {
     const formatTime=()=>{
         return "00:00:00"
     };
+
   return (
     <div className="container">
       <h1 >STOP WATCH</h1>
       <div className="stopwatch">
         <div className="display">
-          <h2>{formatTime()}</h2>
+          <p>{formatTime()}</p>
         </div>
 
         <div>

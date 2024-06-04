@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center child elements horizontally */
+  justify-content: center; /* Center child elements vertically */
+  text-align: center;
+  height: 100vh; /* Full viewport height for vertical centering */
+  font: bold;
+}
+.container,
+h1 {
+  font-size: 80px;
+}
+
+.stopwatch {
+  border: 2px solid azure;
+  border-radius: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center child elements horizontally */
+  padding: 20px; /* Optional: Add some padding for better appearance */
+}
