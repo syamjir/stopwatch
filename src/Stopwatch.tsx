@@ -24,14 +24,14 @@ export default function Stopwatch() {
           <p>{formatTime()}</p>
         </div>
 
-        <div>
-          <button className="btn" onClick={startHandle}>
+        <div className="Btns">
+          <button className="startBtn" onClick={startHandle}>
             Start
           </button>
-          <button className="btn" onClick={stopHandle}>
+          <button className="stopBtn" onClick={stopHandle}>
             Stop
           </button>
-          <button className="btn" onClick={resetHandle}>
+          <button className="restatBtn" onClick={resetHandle}>
             Reset
           </button>
         </div>
