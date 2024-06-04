@@ -4,14 +4,19 @@
   align-items: center; /* Center child elements horizontally */
   justify-content: center; /* Center child elements vertically */
   text-align: center;
-  height: 100vh; /* Full viewport height for vertical centering */
   font: bold;
-  max-height: 100vh;
+  font-size: 50px;
   overflow: hidden;
 }
-.container,
-h1 {
-  font-size: 80px;
+
+.display,
+p {
+  font-size: 85px;
+  font: 100px;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(224, 33%, 65%);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 100%, 0.75);
 }
 
 .Btns {
@@ -22,7 +27,7 @@ h1 {
 
 .stopwatch {
   border: 2px solid azure;
-  border-radius: 10px;
+  border-radius: 20px;
   width: 500px;
   display: flex;
   flex-direction: column;
